@@ -9,14 +9,14 @@ with open("requirements.txt", "r") as file:
     install_requires = [line.rstrip() for line in file]
 
 setuptools.setup(
-    name="insomniac",
+    name="emoalien",
     version=__version__,
-    author="Insomniac Team",
-    author_email="info@insomniac-bot.com",
+    author="emoalien",
+    author_email="el.colorado@protonmail.com",
     description="Insomniac: Instagram bot for automated Instagram interaction using Android device via ADB",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/alexal1/Insomniac",
+    url="https://github.com/Sh-Jil/Insomniac",
     packages=setuptools.find_packages(exclude=[
         'registration',
         'registration.*',
